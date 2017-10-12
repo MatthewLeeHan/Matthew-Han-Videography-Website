@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    height: 1500px;
 }
 
 #navbar{
@@ -29,18 +28,28 @@ body{
 }
 
 .fullscreen-bg__video{
-    width: 100%;
-    position: absolute;
-    z-index: -9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 
 }
 .myname{
-    position: absolute;
-    z-index: 99999;
     color: white;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    margin-top: 340px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
 
 }
+#section1{
+    background-color: black;
+}
+
