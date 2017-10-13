@@ -42,12 +42,29 @@ body{
 
 }
 .myname{
-    color: white;
+    color: rgba(102, 255, 216,0.5);
     text-align: center;
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 80px;
     animation: nameFadeIn 2.5s ease-in-out;
 
+}
+.myname2{ /* orange one on the top of the stack of matthew names*/
+    color: rgba(255, 197, 96, 0.7);
+    font-size: 80px;
+    z-index: -9;
+    margin-top: -180px;
+    text-align: center;
+    animation: nameFadeIn 2.5s ease-in-out;
+    animation: colorSpaz 0.2s ease-in-out infinite;
+}
+.myname3{
+    color: rgba(102, 255, 216,0.6);
+    position: relative;
+    font-size: 80px;
+    z-index: -10;
+    margin-top: -161px;
+    text-align: center;
+    animation: nameFadeIn 2.5s ease-in-out;
 }
 @keyframes nameFadeIn{
     from{
@@ -55,6 +72,15 @@ body{
     }
     to{
         opacity: 1;
+    }
+}
+
+@keyframes colorSpaz{
+    from{
+        color: rgba(255, 255, 255,0.7);
+    }
+    to{
+        color: rgba(200, 235, 155,0.7);
     }
 }
 .arrow{
@@ -81,14 +107,23 @@ body{
     }
 }
 #section1{
-    background: white;
+    background: black;
 }
 #section1 h1{
     font-size: 100px;
-    margin-top: -350px;
     margin-left: -1000px;
-    color: darkblue;
+    color: rgba(102, 255, 216,1);
     transition: all 1.5s ease-in-out;
+    opacity: 0;
+    line-height: 0.8;
+
+}
+#section1 h2{
+    font-size: 80px;
+    margin-left: 50px;
+    line-height: 0;
+    margin-top: -180px;
+    color: white;
 }
 /*    animation: slideIn 3s ease-in;*/
 /*
@@ -104,6 +139,21 @@ body{
 */
 .fp-viewing-1 #section1 h1{
     margin-left: 50px;
+    opacity: 1;
+}
+.video{
+    display: inline-block;
+    margin-left: -1000px;
+    transition: all 1.5s ease-in-out;
+    border: 2px solid white;
+}
+.video2{
+    display: inline-block;
+    margin-left: 60px;
+    border: 2px solid white;
+}
+.fp-viewing-1 #section1 .video{
+    margin-left: 60px;
 }
     
 
