@@ -85,10 +85,13 @@ body{
 }
 #section1 h1{
     font-size: 100px;
-    margin-top: -400px;
-    margin-left: 50px;
+    margin-top: -350px;
+    margin-left: -1000px;
     color: darkblue;
-    animation: slideIn 3s ease-in;
+    transition: all 1.5s ease-in-out;
+}
+/*    animation: slideIn 3s ease-in;*/
+/*
 }
 @keyframes slideIn{
     0%{
@@ -98,5 +101,10 @@ body{
         margin-left: 50px;
     }
 }
+*/
+.fp-viewing-1 #section1 h1{
+    margin-left: 50px;
+}
+    
 
 
