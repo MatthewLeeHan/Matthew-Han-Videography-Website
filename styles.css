@@ -20,7 +20,6 @@ body{
 .name{
     font-family: 'Libre Barcode 39 Text', cursive;
     font-size: 2.5vw;
-
 }
 
 .navbar a{
@@ -47,9 +46,57 @@ body{
     text-align: center;
     font-size: 50px;
     font-weight: 500;
+    animation: nameFadeIn 2.5s ease-in-out;
 
 }
-#section1{
-    background-color: black;
+@keyframes nameFadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
+.arrow{
+    display: block;
+    position: absolute;
+    filter: invert(100);
+    width: 40px;
+    height: auto;
+    bottom: 20px;
+    left: 49%;
+/*    opacity: 0.4;*/
+    animation: arrowPulse 2.5s ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes arrowPulse{
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#section1{
+    background: white;
+}
+#section1 h1{
+    font-size: 100px;
+    margin-top: -400px;
+    margin-left: 50px;
+    color: darkblue;
+    animation: slideIn 3s ease-in;
+}
+@keyframes slideIn{
+    0%{
+        margin-left: -100px;
+    }
+    100%{
+        margin-left: 50px;
+    }
+}
+
 
