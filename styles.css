@@ -90,7 +90,8 @@ body{
     width: 40px;
     height: auto;
     bottom: 20px;
-    left: 49%;
+    left: 50%;
+    margin-left: -20px; /* centering something abs position, left:50% and margin-left: negative value of half of width of thing u want to center lol */
 /*    opacity: 0.4;*/
     animation: arrowPulse 2.5s ease-in-out;
     animation-iteration-count: infinite;
@@ -110,37 +111,55 @@ body{
     background: black;
 }
 #section1 h1{
-    font-size: 100px;
+    font-size: 77px;
     margin-left: -1000px;
-    color: rgba(102, 255, 216,1);
+/*    color: rgba(102, 255, 216,1);*/
+    color: white;
     transition: all 1.5s ease-in-out;
     opacity: 0;
-    line-height: 0.8;
-
 }
-#section1 h2{
-    font-size: 80px;
-    margin-left: 50px;
-    line-height: 0;
-    margin-top: -180px;
-    color: white;
-}
-/*    animation: slideIn 3s ease-in;*/
-/*
-}
-@keyframes slideIn{
-    0%{
-        margin-left: -100px;
-    }
-    100%{
-        margin-left: 50px;
-    }
-}
-*/
 .fp-viewing-1 #section1 h1{
-    margin-left: 50px;
+    margin-left: 100px;
     opacity: 1;
 }
+#section1 p{
+    color: white;
+    margin-left: 1500px;
+    opacity: 0;
+    transition: all 1.5s ease-in-out;
+}
+.fp-viewing-1 #section1 p{
+    margin-left: 100px;
+    opacity: 1;
+}
+.bioHolder{
+    width: 35%;
+}
+.resumeLink{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 100px;
+    display: inline-block;
+}
+.videosLink{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.facebookLink{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
 .video{
     display: inline-block;
     margin-left: -1000px;
@@ -155,6 +174,24 @@ body{
 .fp-viewing-1 #section1 .video{
     margin-left: 60px;
 }
+#section1{
+/*    background-image: url(images/busan.jpg);*/
+    background-color: black;
+    background-size: cover;
+    display: flex;
+}
+.arrowResume{
+    filter: invert(100);
+    width: 40px;
+    height: auto;
+    margin-bottom: -1.5px;
+    display: inline-block;
+}
+#section2{
+    
+}
+
+
     
 
 
