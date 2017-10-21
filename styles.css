@@ -126,6 +126,7 @@ body{
     color: white;
     margin-left: 1500px;
     opacity: 0;
+    font-weight: 500;
     transition: all 1.5s ease-in-out;
 }
 .fp-viewing-1 #section1 p{
@@ -135,31 +136,6 @@ body{
 .bioHolder{
     width: 35%;
 }
-.resumeLink{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 100px;
-    display: inline-block;
-}
-.videosLink{
-    display: inline-block;
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-    margin-left: 100px;
-}
-.facebookLink{
-    display: inline-block;
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-    margin-left: 100px;
-}
-
 .video{
     display: inline-block;
     margin-left: -1000px;
@@ -187,11 +163,44 @@ body{
     margin-bottom: -1.5px;
     display: inline-block;
 }
-#section2{
-    
+.allLinkHolder{
+    margin-top: 200px;
+    transition: all 3s ease-in-out;
+    opacity: 0;
+}
+.bio-link{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 100px;
 }
 
-
+.myLogo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 100px;
+    margin-top: -40px;
+    opacity: 0;
+    transition: all 3s ease-in-out;
+}
+.fp-viewing-1 #section1 .myLogo{
+    opacity: 1;
+}
+.fp-viewing-1 #section1 .allLinkHolder{
+    opacity: 1;
+}
+#section2{
+    background-color: black;
+}
+.everythingContainer{
+    border-bottom: 6px solid white;
+    height: 700px;
+    width: 87%;
+    margin: 0 auto;
+}
     
 
 
