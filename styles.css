@@ -236,4 +236,96 @@ body{
 #section3{
     background-color: black;
 }
+.fourthPageTitle{
+    color: white;
+    font-size: 70px;
+    margin-left: 6%;
+    margin-top: -100px;
+}
+.cinema{
+    filter: invert(100);
+    width: 230px;
+    height: auto;
+}
+.cinemaHolder{
+    margin-left: 4.7%;
+    width: 17%;
+    display: inline-block;
+    text-align: center;
+}
+.cinemaTextHolder{
+    color: white;
+    margin-top: -70px;
+    text-align: center;
+}
+.webDev{
+    filter: invert(100);
+    width: 230px;
+    height: auto;
 
+}
+.webDevHolder{
+    display: inline-block;
+    text-align: center;
+    width: 17%;
+    margin-left: 18%;
+}
+.webDevTextHolder{
+    color: white;
+    margin-top: -30px;
+    text-align: center;
+}
+.servicesHolder{
+    display: inline-block;
+}
+.designHolder{
+    display: inline-block;
+    width: 17%;
+    text-align: center;
+    margin-left: 19%;
+
+}
+.design{
+    filter: invert(100);
+    width: 230px;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+.designTextHolder{
+    color: white;
+    text-align: center;
+    margin-top: -85px;
+}
+.form-container{
+    display: inline-block;
+    width: 20%;
+    margin-left: 17%;
+}
+.form-container h1{
+    color: white;
+}
+form{
+    color: white;
+    width: 100px;
+}
+#email, #lname, #fname{
+    width: 300px;
+}
+#subject{
+    width: 300px;
+    height: 120px;
+    font-family: 'Poppins', sans-serif; 
+}
+#submitbtn{
+    border: none;
+    color: black;
+    background-color: white;
+    font-family: 'Poppins', sans-serif; 
+    display: inline-block;
+/*    margin-left: 120px;*/
+    width: 305px;
+}
+#section4{
+    background-color: aquamarine;
+}
