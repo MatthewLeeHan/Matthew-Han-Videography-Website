@@ -205,7 +205,6 @@ body{
     color: white;
     font-size: 70px;
     margin-left: -1000px;
-    margin-top: -40px;
     transition: all 1.5s ease-in-out;
     opacity: 0;
 }
@@ -226,6 +225,7 @@ body{
     margin-left: 4%;
 }
 .everythingContainer{
+    display: inline-block;
     margin-left: 6%;
 }
 .videoHolderSpacing2{
@@ -343,6 +343,10 @@ span{
 textarea{
     border: 3px solid teal;
     width: 300px;
+}
+iframe{
+    width: 20vw;
+    height: auto;
 }
 @media only screen and (max-width: 1500px) {
     iframe{
