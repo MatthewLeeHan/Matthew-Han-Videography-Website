@@ -138,8 +138,8 @@ body{
     margin-left: 6%;
     opacity: 1;
 }
-.bioHolder{
-/*    width: 32%;*/
+.holder{
+    margin-left: 6%;
 }
 .video{
     display: inline-block;
@@ -169,9 +169,9 @@ body{
     display: inline-block;
 }
 .allLinkHolder{
-    margin-top: 130px;
     transition: all 3s ease-in-out;
     opacity: 0;
+    margin-top: 100px;
 }
 .bio-link{
     display: inline-block;
@@ -179,9 +179,7 @@ body{
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    margin-left: 100px;
     text-shadow: 1px 1px black;
-
 }
 
 .myLogo{
@@ -300,17 +298,20 @@ body{
 .form-container{
     display: inline-block;
     width: 20%;
-    margin-left: 17%;
+    margin-left: 6%;
 }
 .form-container h1{
     color: white;
 }
-form{
-    color: white;
+text{
+    border: 3px solid white;
     width: 100px;
 }
-#email, #lname, #fname{
+input{
+    border: 3px solid teal;
+    display:block;
     width: 300px;
+    height: 30px;
 }
 #subject{
     width: 300px;
@@ -322,10 +323,56 @@ form{
     color: black;
     background-color: white;
     font-family: 'Poppins', sans-serif; 
-    display: inline-block;
 /*    margin-left: 120px;*/
-    width: 305px;
+    border: 3px solid teal;
+    width: 310px;
+    height: 30px;
 }
 #section4{
-    background-color: aquamarine;
+    background-color: black;
 }
+#section4 h1{
+    color: white;
+    font-size: 77px;
+    margin-left: 6%;
+    margin-top: -300px;
+}
+span{
+    color: white;
+}
+textarea{
+    border: 3px solid teal;
+    width: 300px;
+}
+@media only screen and (max-width: 1500px) {
+    iframe{
+        width: 250px;
+        height: 150px;
+    }
+    .videoHolder{
+        margin-left: 5%;
+    }
+    .everythingContainer{
+        margin-left: 1%;
+    }
+    
+}
+@media only screen and (max-width: 1100px) {
+    #section1 p{
+        width: 400px;
+    }
+    .thirdPageTitle{
+        margin-left: 3%;
+    }
+    iframe{
+        width: 215px;
+        height: 115px;
+    }
+    .everythingContainer{
+        margin-left: 3%;
+    }
+    .videoHolderSpacing{
+        margin-left: 2%;
+    }
+}
+

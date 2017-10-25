@@ -46,8 +46,10 @@
             <h1 class="videographyTitle">About me</h1>
             <div class="bioHolder">
                 <p class="bio">Hi! My name's Matthew Han and I'm a freelance videographer and a second-year at the University of Virginia. I'm majoring in Computer Science and Studio Art, and I hope to combine my skills as a developer with my art and videography skillset.</p>
-                <p class="bio">I love food and my dog Cosmo.</p>
-                <div class="allLinkHolder">
+<!--                <p class="bio">I love food and my dog Cosmo.</p>-->
+            </div> 
+            <div class="allLinkHolder">
+                    <div class="holder">
                     <div>
                         <a class="bio-link" target="_blank" href="https://github.com/MatthewLeeHan">GitHub</a>
                         <img class="arrowResume" src="images/arrow.svg">
@@ -71,8 +73,8 @@
                     <div class="myLogoHolder">
                         <img class="myLogo" src="images/mylogo.png">
                     </div>
-                </div>
-            </div> 
+                    </div>
+            </div>
 
             <img class="arrow" src="images/thin-arrowheads-pointing-down.svg">
 
@@ -128,21 +130,16 @@
         
         </div>
         <div class="section" id="section4">
+            <h1>Contact Me</h1>
             <div class="form-container">
-                <h1>Contact Me</h1>
-                <form>
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname">
-                    
-                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname">
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
-
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="What can I help you with?"></textarea>
-                    <input type="submit" value="Submit" id="submitbtn">
+                 <form action="https://formspree.io/mlh6fc@virginia.edu"
+                      method="POST">
+                    <label><span>Your Name</span><input type="text"name="name">
+                    </label>
+                    <label><span>Your Email</span><input type="email" name="_replyto"></label>
+                    <label><span>How can I help you?</span><textarea name="message"></textarea>
+                    </label>
+                    <input id="submitbtn" type="submit" value="Send">
                 </form>
             </div>
         </div>
