@@ -4,28 +4,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-#navbar{
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Libre Barcode 39 Text', cursive;
-	position:fixed;
-	top:0px;
-	width:100%; 
-	height:75px; 
-	z-index:9999;
-	display: none;
-    color: white;
-}
-
-.name{
-    font-family: 'Libre Barcode 39 Text', cursive;
-    font-size: 2.5vw;
-}
-
-.navbar a{
-    padding-right: 60px;
-}
-
 .fullscreen-bg__video{
     position: fixed;
     top: 50%;
@@ -41,12 +19,17 @@ body{
     transform: translateX(-50%) translateY(-50%);
 
 }
+.subtitle{
+    color: rgba(102, 255, 216,0.7);
+    text-align: center;
+    margin-top: -70px;
+
+}
 .myname{
     color: rgba(102, 255, 216,0.5);
     text-align: center;
     font-size: 80px;
     animation: nameFadeIn 2.5s ease-in-out;
-
 }
 .myname2{ /* orange one on the top of the stack of matthew names*/
     color: rgba(255, 197, 96, 0.7);
@@ -83,6 +66,7 @@ body{
         color: rgba(200, 235, 155,0.7);
     }
 }
+
 .arrow{
     display: block;
     position: absolute;
@@ -108,201 +92,58 @@ body{
     }
 }
 #section1{
-    background-image: url(images/websiteDayOne-2.jpg);
-    background-repeat:no-repeat;
-    background-position: center center;
-
-}
-#section1 h1{
-    font-size: 77px;
-    margin-left: -1000px;
-/*    color: rgba(102, 255, 216,1);*/
-    color: white;
-    transition: all 1.5s ease-in-out;
-    opacity: 0;
-}
-.fp-viewing-1 #section1 h1{
-    margin-left: 6%;
-    opacity: 1;
-}
-#section1 p{
-    color: white;
-    margin-left: 1500px;
-    opacity: 0;
-    font-weight: 500;
-    text-shadow: 2px 2px black;
-    width: 26%;
-    transition: all 1.5s ease-in-out;
-}
-.fp-viewing-1 #section1 p{
-    margin-left: 6%;
-    opacity: 1;
-}
-.holder{
-    margin-left: 6%;
-}
-.video{
-    display: inline-block;
-    margin-left: -1000px;
-    transition: all 1.5s ease-in-out;
-    border: 2px solid white;
-}
-.video2{
-    display: inline-block;
-    margin-left: 60px;
-    border: 2px solid white;
-}
-.fp-viewing-1 #section1 .video{
-    margin-left: 60px;
-}
-#section1{
-/*    background-image: url(images/busan.jpg);*/
-    background-color: black;
+    background-image: url(images/mememe.jpg);
     background-size: cover;
-    display: flex;
 }
-.arrowResume{
-    filter: invert(100);
-    width: 40px;
-    height: auto;
-    margin-bottom: -1.5px;
-    display: inline-block;
+.videographyTitle{
+    font-size: 5vw;
+    color: white;
+    margin-left: 62%;
+    margin-top: -14%;
+}
+
+.bioHolder{
+    width:490px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-left: 62%;
 }
 .allLinkHolder{
-    transition: all 3s ease-in-out;
-    opacity: 0;
-    margin-top: 100px;
-}
-.bio-link{
-    display: inline-block;
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-    text-shadow: 1px 1px black;
+    width: 100%;
+    margin-top: 4%;
 }
 
-.myLogo{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    right: 100px;
-    margin-top: -40px;
-    opacity: 0;
-    transition: all 3s ease-in-out;
-}
-.fp-viewing-1 #section1 .myLogo{
-    opacity: 1;
-}
-.fp-viewing-1 #section1 .allLinkHolder{
-    opacity: 1;
-}
-#section2{
-/*    background-color: black;*/
-    background-image: url(images/websitePageThree.png);
-}
-.thirdPageTitle{
-    color: white;
-    font-size: 70px;
-    margin-left: -1000px;
-    transition: all 1.5s ease-in-out;
-    opacity: 0;
-}
-.fp-viewing-2 #section2 .thirdPageTitle{
-    margin-left: 6%;
-    opacity: 1;
-}
-.videoHolder{
-    border: 4px solid white;
-    display: inline-block;
-    opacity: 0;
-    transition: all 2.5s ease-in-out;
-}
-.fp-viewing-2 #section2 .videoHolder{
-    opacity: 1;
-}
-.videoHolderSpacing{
-    margin-left: 4%;
-}
-.everythingContainer{
-    display: inline-block;
-    margin-left: 6%;
-}
-.videoHolderSpacing2{
-    margin-top: 50px;
-}
-#section3{
-    background-color: black;
-}
-.fourthPageTitle{
-    color: white;
-    font-size: 70px;
-    margin-left: 6%;
-    margin-top: -100px;
-}
-.cinema{
+.githubLogo{
     filter: invert(100);
-    width: 230px;
-    height: auto;
 }
-.cinemaHolder{
-    margin-left: 4.7%;
-    width: 17%;
+.gitHubHolder{
     display: inline-block;
-    text-align: center;
     vertical-align: top;
-    margin-top: -30px;
+    margin-left: 62%;
 }
-.cinemaTextHolder{
-    color: white;
-    margin-top: -70px;
-    text-align: center;
-}
-.webDev{
-    filter: invert(100);
-    width: 230px;
-    height: auto;
 
-}
-.webDevHolder{
+.ytHolder{
     display: inline-block;
-    text-align: center;
-    width: 17%;
-    margin-left: 18%;
+    margin-left: 30px;
     vertical-align: top;
+    margin-top: 20px;
 }
-.webDevTextHolder{
-    color: white;
-    margin-top: -30px;
-    text-align: center;
-}
-.servicesHolder{
-    display: inline-block;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.designHolder{
-    display: inline-block;
-    width: 17%;
-    text-align: center;
-    margin-left: 19%;
-    vertical-align: top;
-    margin-top: -27px;
-
-}
-.design{
-    filter: invert(100);
-    width: 230px;
+.yt{
+    width: 140px;
     height: auto;
-    color: white;
-    text-align: center;
 }
-.designTextHolder{
-    color: white;
-    text-align: center;
-    margin-top: -70px;
+.linkedHolder{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 19px;
 }
+.li{
+    width: 140px;
+    height: auto;
+}
+
 .form-container{
     display: inline-block;
     width: 20%;
@@ -356,35 +197,62 @@ iframe{
     width: 20vw;
     height: auto;
 }
-@media only screen and (max-width: 1500px) {
-    iframe{
-        width: 250px;
-        height: 150px;
+
+/** MEDIA QUERIES **/
+
+@media screen and (max-width: 1340px) {
+    .bioHolder{
+        width:350px;
     }
-    .videoHolder{
-        margin-left: 5%;
+    .githubLogo{
+        width: 50px;
+        height: auto;
     }
-    .everythingContainer{
-        margin-left: 1%;
+    .yt{
+        width: 90px;
+        height: auto;
     }
-    
-}
-@media only screen and (max-width: 1100px) {
-    #section1 p{
-        width: 400px;
-    }
-    .thirdPageTitle{
-        margin-left: 3%;
-    }
-    iframe{
-        width: 215px;
-        height: 115px;
-    }
-    .everythingContainer{
-        margin-left: 3%;
-    }
-    .videoHolderSpacing{
-        margin-left: 2%;
+    .li{
+         width: 90px;
+        height: auto;
     }
 }
 
+@media screen and (max-width: 900px) {
+    .bioHolder{
+       text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    .bio{
+        text-align: center;
+        
+    }
+    .videographyTitle{
+        font-size: 40px;
+        margin-left: 0;
+    }
+    .titleHolder{
+        text-align: center;
+    }
+    /* logos */
+    .allLinkHolder{
+        text-align: center;
+    }
+    .githubLogo{
+        width: 50px;
+        height: auto;
+    }
+    .gitHubHolder{
+        margin-left: 0;
+    }
+    .yt{
+        width: 90px;
+        height: auto;
+    }
+    .li{
+         width: 90px;
+        height: auto;
+    }
+    
+}
