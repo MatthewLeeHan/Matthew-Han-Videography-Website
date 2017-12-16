@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -258,8 +259,71 @@ iframe{
 }
 /** end of 2nd page responsiveness ^ **/
 
+#particles-js{
+    height: 100%;
+    background: #FF7575;
+    position: relative;
+    z-index: 1;
+}
+.absolute{
+    position: absolute;
+    width: 100%;
+}
 .devPortfolioTitle{
     font-size: 80px;
+    position: relative;
     text-align: center;
-    margin-top: -24%;
+    z-index: 33;
+    color: rgba(255, 255, 255,1)
 }
+.grid{
+    position: absolute;
+    z-index: 100;
+    left: 2.7%;
+    right: 3%;
+    top: 25%;
+/*    border: 5px solid white;*/
+    color: white;
+    padding: 2%;
+    height: 55%;
+    width: 90%;
+}
+.hclogo{
+    width: 150px;
+    height: auto;
+}
+.LogoHolder{
+    text-align: center;
+    border: 3px solid white;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.tt{
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+}
+.wmens{
+    width: 200px;
+    height: auto;
+}
+.vox{
+    width: 160px;
+    height: auto;
+    margin-top: 50px;
+}
+.foodbank{
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+}
+.link{
+    color: white;
+}
+.allLogoHolder{
+    text-align: center;
+}
+
