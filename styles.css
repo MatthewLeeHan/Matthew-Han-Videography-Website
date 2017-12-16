@@ -199,7 +199,7 @@ iframe{
 }
 
 /** MEDIA QUERIES **/
-
+/** RESPONSIVENESS OF 2ND PAGE MOSTLY below **/
 @media screen and (max-width: 1340px) {
     .bioHolder{
         width:350px;
@@ -255,4 +255,11 @@ iframe{
         height: auto;
     }
     
+}
+/** end of 2nd page responsiveness ^ **/
+
+.devPortfolioTitle{
+    font-size: 80px;
+    text-align: center;
+    margin-top: -24%;
 }
