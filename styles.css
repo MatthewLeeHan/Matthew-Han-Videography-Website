@@ -200,7 +200,9 @@ iframe{
 }
 
 /** MEDIA QUERIES **/
-/** RESPONSIVENESS OF 2ND PAGE MOSTLY below **/
+/** RESPONSIVENESS OF 2ND PAGE MOSTLY**/
+/** BELOW **/
+
 @media screen and (max-width: 1340px) {
     .bioHolder{
         width:350px;
@@ -257,7 +259,10 @@ iframe{
     }
     
 }
+
 /** end of 2nd page responsiveness ^ **/
+/**************************************/
+/**************************************/
 
 #particles-js{
     height: 100%;
@@ -328,7 +333,9 @@ iframe{
     text-align: center;
 }
 
-/** RESPONSIVENESS FOR MOBILE SITE **/
+/** RESPONSIVENESS**/
+/** OF FIRST PAGE **/
+/** BELOW **/
 
 @media screen and (max-width: 480px) {
     .fullscreen-bg{
@@ -363,4 +370,15 @@ iframe{
     }
 
 }
+
+/** RESPONSIVENESS **/
+/** OF THIRD PAGE **/
+/** BELOW **/
+
+@media screen and (max-width: 1340px) {
+    .LogoHolder{
+        width: 180px;
+    }
+}
+
 
