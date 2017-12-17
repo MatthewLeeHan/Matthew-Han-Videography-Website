@@ -381,4 +381,46 @@ iframe{
     }
 }
 
+@media screen and (max-width: 900px) {
+    .LogoHolder{
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .devPortfolioTitle{
+        font-size: 10vw;
+    }
+    .LogoHolder{
+        width: 100px;
+        height: 100px;
+    }
+    .link{
+        font-size: 2.5vw;
+    }
+    .hclogo{
+        width: 65px;
+        height: auto;
+    }
+    .tt{
+        width: 80px;
+        height: auto;
+        margin-top: 30px;
+    }
+    .wmens{
+        width: 70px;
+        height: auto;
+    }
+    .vox{
+        width: 70px;
+        height: auto;
+        margin-top: 20px;
+    }
+    .foodbank{
+        width: 100px;
+        height: auto;
+        margin-top: 10px;
+    }
+}
+
 
