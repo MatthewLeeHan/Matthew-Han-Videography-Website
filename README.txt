@@ -1,3 +1,5 @@
-My personal website for my videography freelancing. 
+My personal website.
 
-Built with FullPage.js
+To showcase me :D
+
+Built with FullPage.js and Particles.js
